@@ -1,0 +1,98 @@
+/*<!-- Google Fonts: Jost -->*/
+
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body{
+     font-family: "Jost", sans-serif;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url('https://i.pinimg.com/1200x/c3/0a/b5/c30ab527b2e8a3f00a70b46c6ca2af68.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.To-Do {
+   width: 100%;
+   max-width: 400px;
+   padding: 2rem;
+   container: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   color: #fff;
+   border-radius: 20px;
+   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+   border: 3px solid rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px);
+
+}
+.To-Do h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.input area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.input area input {
+    flex: 1;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 5px;
+    margin-right: 0.5rem;
+    font-size: 1rem;
+}
+.input area::placeholder {
+    color: #999;
+}
+.input area button {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 50%;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.input area button:hover {
+    background-color: #45a049;
+}
+.todos-container {
+    width: 100%;
+    max-height: 400px;
+    overflow-y: auto;
+    margin-top: 1rem;
+}
+#task-list {
+    width: 100%;
+    list-style: none;
+    padding: 0;
+}
+  .empty-image {
+  width: 100px;
+  height: auto;
+  object-fit: contain;
+  background: none;
+  border: none;
+  box-shadow: none;
+}
+
